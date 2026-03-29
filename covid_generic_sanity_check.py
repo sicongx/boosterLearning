@@ -18,9 +18,6 @@ What it does
 5. Trains tabular Q-learning through the new generic interface.
 6. Evaluates four policies and prints a compact sanity-check summary.
 
-The goal is not to put COVID logic back into the library. Instead, this file keeps
-COVID-specific logic outside the library and demonstrates how the generic interface
-can reproduce the paper's example workflow.
 """
 
 from __future__ import annotations
