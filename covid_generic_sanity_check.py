@@ -598,8 +598,8 @@ if __name__ == "__main__":
 
     if USE_DEFAULT:
         class Args:
-            rnn_data = "data/RLdata_for_RNN_01242024.csv"
-            weights = "data/rnn_weights_2_128_2000_1e-04.pth"
+            rnn_data = "facsimile_data.csv"
+            weights = "rnn_weights_2_128_2000_1e-04.pth"
             reward_type = "prop"
             vax_cost = 0.04
             train_repeats = 1
